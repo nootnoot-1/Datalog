@@ -15,6 +15,7 @@ CMakeFiles/Datalog.dir/Lexer.cpp.obj: \
  ../Automaton.h \
  ../ColonAutomaton.h \
  ../ColonDashAutomaton.h \
+ ../CommaAutomaton.h \
  ../Lexer.cpp \
  ../Lexer.h \
  ../Token.h

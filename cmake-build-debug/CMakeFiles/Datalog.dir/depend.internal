@@ -15,6 +15,7 @@ CMakeFiles/Datalog.dir/Lexer.cpp.obj
  C:/Users/colli/Datalog/Datalog/Automaton.h
  C:/Users/colli/Datalog/Datalog/ColonAutomaton.h
  C:/Users/colli/Datalog/Datalog/ColonDashAutomaton.h
+ C:/Users/colli/Datalog/Datalog/CommaAutomaton.h
  C:/Users/colli/Datalog/Datalog/Lexer.cpp
  C:/Users/colli/Datalog/Datalog/Lexer.h
  C:/Users/colli/Datalog/Datalog/Token.h
