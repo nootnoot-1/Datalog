@@ -49,7 +49,7 @@ void Lexer::Run(std::string& input) {
         set maxRead to 0
         set maxAutomaton to the first automaton in automata
 
-        // TODO: you need to handle whitespace inbetween tokens
+        // TODO: you need to handle whitespace in between tokens
 
         // Here is the "Parallel" part of the algorithm
         //   Each automaton runs with the same input
