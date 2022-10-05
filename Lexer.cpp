@@ -17,6 +17,30 @@ void Lexer::CreateAutomata() {
 }
 
 void Lexer::Run(std::string& input) {
+    int lineNumber = 1;
+    while (!input.empty()) {
+        int maxRead = 0;
+        auto maxAutomaton = automata.at(0);
+        for (int i = 0; i < automata.size(); ++i) {
+            int inputRead = automata.at(i)->Start(input);
+            if (inputRead > maxRead) {
+                maxRead = inputRead;
+                maxAutomaton = automata.at(i);
+            }
+        }
+        if (maxRead > 0) {
+            auto newToken = maxAutomaton->CreateToken(input, lineNumber);
+            lineNumber = lineNumber + maxAutomaton->NewLinesRead();
+            tokens.push_back(newToken);
+        } else {
+            maxRead = 1;
+            std::string desc = "";
+            desc.push_back(input[0]);
+            auto newToken = new Token(TokenType::UNDEFINED, desc, lineNumber);
+            tokens.push_back(newToken);
+        }
+        input.erase(0,maxRead);
+    }
     // TODO: convert this pseudo-code with the algorithm into actual C++ code
     /*
     set lineNumber to 1
