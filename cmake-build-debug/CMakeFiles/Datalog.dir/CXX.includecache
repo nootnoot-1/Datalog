@@ -10,41 +10,17 @@ C:/Users/colli/Datalog/Datalog/Automaton.h
 Token.h
 C:/Users/colli/Datalog/Datalog/Token.h
 
-C:/Users/colli/Datalog/Datalog/ColonAutomaton.h
-Automaton.h
-C:/Users/colli/Datalog/Datalog/Automaton.h
-
-C:/Users/colli/Datalog/Datalog/ColonDashAutomaton.h
-Automaton.h
-C:/Users/colli/Datalog/Datalog/Automaton.h
-
-C:/Users/colli/Datalog/Datalog/Lexer.cpp
-Lexer.h
-C:/Users/colli/Datalog/Datalog/Lexer.h
+C:/Users/colli/Datalog/Datalog/ColonAutomaton.cpp
 ColonAutomaton.h
 C:/Users/colli/Datalog/Datalog/ColonAutomaton.h
-ColonDashAutomaton.h
-C:/Users/colli/Datalog/Datalog/ColonDashAutomaton.h
+iostream
+C:/Users/colli/Datalog/Datalog/iostream
 
-C:/Users/colli/Datalog/Datalog/Lexer.h
-vector
--
+C:/Users/colli/Datalog/Datalog/ColonAutomaton.h
 Automaton.h
 C:/Users/colli/Datalog/Datalog/Automaton.h
-Token.h
-C:/Users/colli/Datalog/Datalog/Token.h
 
 C:/Users/colli/Datalog/Datalog/Token.h
 string
--
-
-C:/Users/colli/Datalog/Datalog/main.cpp
-Lexer.h
-C:/Users/colli/Datalog/Datalog/Lexer.h
-iostream
--
-string
--
-fstream
 -
 
