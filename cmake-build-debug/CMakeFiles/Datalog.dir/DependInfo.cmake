@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/colli/Datalog/Datalog/ColonAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/ColonDashAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj"
+  "C:/Users/colli/Datalog/Datalog/CommaAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/Lexer.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Lexer.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/Token.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Token.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/main.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/main.cpp.obj"

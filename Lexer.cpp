@@ -2,6 +2,7 @@
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
 #include "CommaAutomaton.h"
+#include <iostream>
 
 Lexer::Lexer() {
     CreateAutomata();
@@ -21,6 +22,8 @@ void Lexer::CreateAutomata() {
 void Lexer::Run(std::string& input) {
     int lineNumber = 1;
     while (!input.empty()) {
+        std::cout << input << std::endl;
+        SpaceChecker(input);
         int maxRead = 0;
         auto maxAutomaton = automata.at(0);
         for (int i = 0; i < automata.size(); ++i) {
@@ -43,6 +46,9 @@ void Lexer::Run(std::string& input) {
         }
         input.erase(0,maxRead);
     }
+    auto newToken = new Token(TokenType::ENDOFFILE, "EOF", lineNumber);
+    tokens.push_back(newToken);
+    PrintTokens();
     // TODO: convert this pseudo-code with the algorithm into actual C++ code
     /*
     set lineNumber to 1
@@ -81,4 +87,23 @@ void Lexer::Run(std::string& input) {
     }
     add end of file token to all tokens
     */
+}
+void Lexer::PrintTokens() {
+    for (int i=0; i<tokens.size(); ++i){
+        std::cout << tokens[i]->printTokenType() << std::endl;
+    }
+}
+
+void Lexer::SpaceChecker(std::string& input) {
+    if (input[0] == ' ') {
+        //std::cout << input << std::endl;
+        input.erase(0,1);
+        //std::cout << input << std::endl;
+        SpaceChecker(input);
+    } else if (input[0] == '\n') {
+        //std::cout << input << std::endl;
+        input.erase(0,1);
+        //std::cout << input << std::endl;
+        SpaceChecker(input);
+    } else {return;}
 }

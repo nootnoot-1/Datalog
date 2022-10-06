@@ -95,6 +95,12 @@
 		<Unit filename="C:/Users/colli/Datalog/Datalog/ColonDashAutomaton.h">
 			<Option target="Datalog"/>
 		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/CommaAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/CommaAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Lexer.cpp">
 			<Option target="Datalog"/>
 		</Unit>

@@ -65,35 +65,22 @@ include CMakeFiles/Datalog.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Datalog.dir/flags.make
 
-CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
-CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj: ../ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\ColonAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\ColonAutomaton.cpp
+CMakeFiles/Datalog.dir/main.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Datalog.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\main.cpp.obj -c C:\Users\colli\Datalog\Datalog\main.cpp
 
-CMakeFiles/Datalog.dir/ColonAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/ColonAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\ColonAutomaton.cpp > CMakeFiles\Datalog.dir\ColonAutomaton.cpp.i
+CMakeFiles/Datalog.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\main.cpp > CMakeFiles\Datalog.dir\main.cpp.i
 
-CMakeFiles/Datalog.dir/ColonAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/ColonAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\ColonAutomaton.cpp -o CMakeFiles\Datalog.dir\ColonAutomaton.cpp.s
-
-CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
-CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj: ../ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\ColonDashAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\ColonDashAutomaton.cpp
-
-CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\ColonDashAutomaton.cpp > CMakeFiles\Datalog.dir\ColonDashAutomaton.cpp.i
-
-CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\ColonDashAutomaton.cpp -o CMakeFiles\Datalog.dir\ColonDashAutomaton.cpp.s
+CMakeFiles/Datalog.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\main.cpp -o CMakeFiles\Datalog.dir\main.cpp.s
 
 CMakeFiles/Datalog.dir/Lexer.cpp.obj: CMakeFiles/Datalog.dir/flags.make
 CMakeFiles/Datalog.dir/Lexer.cpp.obj: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Datalog.dir/Lexer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Datalog.dir/Lexer.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\Lexer.cpp.obj -c C:\Users\colli\Datalog\Datalog\Lexer.cpp
 
 CMakeFiles/Datalog.dir/Lexer.cpp.i: cmake_force
@@ -106,7 +93,7 @@ CMakeFiles/Datalog.dir/Lexer.cpp.s: cmake_force
 
 CMakeFiles/Datalog.dir/Token.cpp.obj: CMakeFiles/Datalog.dir/flags.make
 CMakeFiles/Datalog.dir/Token.cpp.obj: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Datalog.dir/Token.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Datalog.dir/Token.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\Token.cpp.obj -c C:\Users\colli\Datalog\Datalog\Token.cpp
 
 CMakeFiles/Datalog.dir/Token.cpp.i: cmake_force
@@ -117,40 +104,68 @@ CMakeFiles/Datalog.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/Token.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\Token.cpp -o CMakeFiles\Datalog.dir\Token.cpp.s
 
-CMakeFiles/Datalog.dir/main.cpp.obj: CMakeFiles/Datalog.dir/flags.make
-CMakeFiles/Datalog.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Datalog.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\main.cpp.obj -c C:\Users\colli\Datalog\Datalog\main.cpp
+CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj: ../ColonDashAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\ColonDashAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\ColonDashAutomaton.cpp
 
-CMakeFiles/Datalog.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\main.cpp > CMakeFiles\Datalog.dir\main.cpp.i
+CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\ColonDashAutomaton.cpp > CMakeFiles\Datalog.dir\ColonDashAutomaton.cpp.i
 
-CMakeFiles/Datalog.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\main.cpp -o CMakeFiles\Datalog.dir\main.cpp.s
+CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\ColonDashAutomaton.cpp -o CMakeFiles\Datalog.dir\ColonDashAutomaton.cpp.s
+
+CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj: ../ColonAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\ColonAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\ColonAutomaton.cpp
+
+CMakeFiles/Datalog.dir/ColonAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/ColonAutomaton.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\ColonAutomaton.cpp > CMakeFiles\Datalog.dir\ColonAutomaton.cpp.i
+
+CMakeFiles/Datalog.dir/ColonAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/ColonAutomaton.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\ColonAutomaton.cpp -o CMakeFiles\Datalog.dir\ColonAutomaton.cpp.s
+
+CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj: ../CommaAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\CommaAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\CommaAutomaton.cpp
+
+CMakeFiles/Datalog.dir/CommaAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/CommaAutomaton.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\CommaAutomaton.cpp > CMakeFiles\Datalog.dir\CommaAutomaton.cpp.i
+
+CMakeFiles/Datalog.dir/CommaAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/CommaAutomaton.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\CommaAutomaton.cpp -o CMakeFiles\Datalog.dir\CommaAutomaton.cpp.s
 
 # Object files for target Datalog
 Datalog_OBJECTS = \
-"CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj" \
-"CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj" \
+"CMakeFiles/Datalog.dir/main.cpp.obj" \
 "CMakeFiles/Datalog.dir/Lexer.cpp.obj" \
 "CMakeFiles/Datalog.dir/Token.cpp.obj" \
-"CMakeFiles/Datalog.dir/main.cpp.obj"
+"CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj" \
+"CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj" \
+"CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj"
 
 # External object files for target Datalog
 Datalog_EXTERNAL_OBJECTS =
 
-Datalog.exe: CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj
-Datalog.exe: CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/main.cpp.obj
 Datalog.exe: CMakeFiles/Datalog.dir/Lexer.cpp.obj
 Datalog.exe: CMakeFiles/Datalog.dir/Token.cpp.obj
-Datalog.exe: CMakeFiles/Datalog.dir/main.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj
 Datalog.exe: CMakeFiles/Datalog.dir/build.make
 Datalog.exe: CMakeFiles/Datalog.dir/linklibs.rsp
 Datalog.exe: CMakeFiles/Datalog.dir/objects1.rsp
 Datalog.exe: CMakeFiles/Datalog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Datalog.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Datalog.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Datalog.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

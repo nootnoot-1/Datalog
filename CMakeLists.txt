@@ -3,9 +3,4 @@ project(Datalog)
 
 set(CMAKE_CXX_STANDARD 14)
 
-file(GLOB SOURCES
-        *.h
-        *.cpp
-        )
-
-add_executable(Datalog ${SOURCES})
+add_executable(Datalog main.cpp Lexer.cpp Token.cpp Automaton.h ColonDashAutomaton.cpp ColonAutomaton.cpp CommaAutomaton.cpp CommaAutomaton.h)

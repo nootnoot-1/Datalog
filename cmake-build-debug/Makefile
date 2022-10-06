@@ -176,6 +176,30 @@ ColonDashAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.s
 .PHONY : ColonDashAutomaton.cpp.s
 
+CommaAutomaton.obj: CommaAutomaton.cpp.obj
+.PHONY : CommaAutomaton.obj
+
+# target to build an object file
+CommaAutomaton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj
+.PHONY : CommaAutomaton.cpp.obj
+
+CommaAutomaton.i: CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.i
+
+# target to preprocess a source file
+CommaAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/CommaAutomaton.cpp.i
+.PHONY : CommaAutomaton.cpp.i
+
+CommaAutomaton.s: CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.s
+
+# target to generate assembly for a file
+CommaAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/CommaAutomaton.cpp.s
+.PHONY : CommaAutomaton.cpp.s
+
 Lexer.obj: Lexer.cpp.obj
 .PHONY : Lexer.obj
 
@@ -263,6 +287,9 @@ help:
 	@echo ... ColonDashAutomaton.obj
 	@echo ... ColonDashAutomaton.i
 	@echo ... ColonDashAutomaton.s
+	@echo ... CommaAutomaton.obj
+	@echo ... CommaAutomaton.i
+	@echo ... CommaAutomaton.s
 	@echo ... Lexer.obj
 	@echo ... Lexer.i
 	@echo ... Lexer.s

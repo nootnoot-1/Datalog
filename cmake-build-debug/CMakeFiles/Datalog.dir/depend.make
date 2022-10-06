@@ -11,6 +11,11 @@ CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj: \
  ../ColonDashAutomaton.cpp \
  ../ColonDashAutomaton.h \
  ../Token.h
+CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj: \
+ ../Automaton.h \
+ ../CommaAutomaton.cpp \
+ ../CommaAutomaton.h \
+ ../Token.h
 CMakeFiles/Datalog.dir/Lexer.cpp.obj: \
  ../Automaton.h \
  ../ColonAutomaton.h \

@@ -19,6 +19,8 @@ public:
     ~Lexer();
 
     void Run(std::string& input);
+    void PrintTokens();
+    void SpaceChecker(std::string& input);
     
     // TODO: add other public methods here
 
