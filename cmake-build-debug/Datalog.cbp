@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/AddAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/AddAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Automaton.h">
 			<Option target="Datalog"/>
 		</Unit>
@@ -101,10 +107,40 @@
 		<Unit filename="C:/Users/colli/Datalog/Datalog/CommaAutomaton.h">
 			<Option target="Datalog"/>
 		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/LeftParenAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/LeftParenAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Lexer.cpp">
 			<Option target="Datalog"/>
 		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Lexer.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/MultiplyAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/MultiplyAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/PERIOD.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/PERIOD.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/QMarkAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/QMarkAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/RightParenAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/RightParenAutomaton.h">
 			<Option target="Datalog"/>
 		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Token.cpp">

@@ -8,10 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/colli/Datalog/Datalog/AddAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/AddAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/ColonAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/ColonDashAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/CommaAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj"
+  "C:/Users/colli/Datalog/Datalog/LeftParenAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/Lexer.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Lexer.cpp.obj"
+  "C:/Users/colli/Datalog/Datalog/MultiplyAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.obj"
+  "C:/Users/colli/Datalog/Datalog/PERIOD.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/PERIOD.cpp.obj"
+  "C:/Users/colli/Datalog/Datalog/QMarkAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.obj"
+  "C:/Users/colli/Datalog/Datalog/RightParenAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/Token.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Token.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/main.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/main.cpp.obj"
   )

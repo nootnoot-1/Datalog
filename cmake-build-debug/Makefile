@@ -128,6 +128,30 @@ Datalog/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/build
 .PHONY : Datalog/fast
 
+AddAutomaton.obj: AddAutomaton.cpp.obj
+.PHONY : AddAutomaton.obj
+
+# target to build an object file
+AddAutomaton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/AddAutomaton.cpp.obj
+.PHONY : AddAutomaton.cpp.obj
+
+AddAutomaton.i: AddAutomaton.cpp.i
+.PHONY : AddAutomaton.i
+
+# target to preprocess a source file
+AddAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/AddAutomaton.cpp.i
+.PHONY : AddAutomaton.cpp.i
+
+AddAutomaton.s: AddAutomaton.cpp.s
+.PHONY : AddAutomaton.s
+
+# target to generate assembly for a file
+AddAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/AddAutomaton.cpp.s
+.PHONY : AddAutomaton.cpp.s
+
 ColonAutomaton.obj: ColonAutomaton.cpp.obj
 .PHONY : ColonAutomaton.obj
 
@@ -200,6 +224,30 @@ CommaAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/CommaAutomaton.cpp.s
 .PHONY : CommaAutomaton.cpp.s
 
+LeftParenAutomaton.obj: LeftParenAutomaton.cpp.obj
+.PHONY : LeftParenAutomaton.obj
+
+# target to build an object file
+LeftParenAutomaton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.obj
+.PHONY : LeftParenAutomaton.cpp.obj
+
+LeftParenAutomaton.i: LeftParenAutomaton.cpp.i
+.PHONY : LeftParenAutomaton.i
+
+# target to preprocess a source file
+LeftParenAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.i
+.PHONY : LeftParenAutomaton.cpp.i
+
+LeftParenAutomaton.s: LeftParenAutomaton.cpp.s
+.PHONY : LeftParenAutomaton.s
+
+# target to generate assembly for a file
+LeftParenAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.s
+.PHONY : LeftParenAutomaton.cpp.s
+
 Lexer.obj: Lexer.cpp.obj
 .PHONY : Lexer.obj
 
@@ -223,6 +271,102 @@ Lexer.s: Lexer.cpp.s
 Lexer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/Lexer.cpp.s
 .PHONY : Lexer.cpp.s
+
+MultiplyAutomaton.obj: MultiplyAutomaton.cpp.obj
+.PHONY : MultiplyAutomaton.obj
+
+# target to build an object file
+MultiplyAutomaton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.obj
+.PHONY : MultiplyAutomaton.cpp.obj
+
+MultiplyAutomaton.i: MultiplyAutomaton.cpp.i
+.PHONY : MultiplyAutomaton.i
+
+# target to preprocess a source file
+MultiplyAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.i
+.PHONY : MultiplyAutomaton.cpp.i
+
+MultiplyAutomaton.s: MultiplyAutomaton.cpp.s
+.PHONY : MultiplyAutomaton.s
+
+# target to generate assembly for a file
+MultiplyAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.s
+.PHONY : MultiplyAutomaton.cpp.s
+
+PERIOD.obj: PERIOD.cpp.obj
+.PHONY : PERIOD.obj
+
+# target to build an object file
+PERIOD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/PERIOD.cpp.obj
+.PHONY : PERIOD.cpp.obj
+
+PERIOD.i: PERIOD.cpp.i
+.PHONY : PERIOD.i
+
+# target to preprocess a source file
+PERIOD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/PERIOD.cpp.i
+.PHONY : PERIOD.cpp.i
+
+PERIOD.s: PERIOD.cpp.s
+.PHONY : PERIOD.s
+
+# target to generate assembly for a file
+PERIOD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/PERIOD.cpp.s
+.PHONY : PERIOD.cpp.s
+
+QMarkAutomaton.obj: QMarkAutomaton.cpp.obj
+.PHONY : QMarkAutomaton.obj
+
+# target to build an object file
+QMarkAutomaton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.obj
+.PHONY : QMarkAutomaton.cpp.obj
+
+QMarkAutomaton.i: QMarkAutomaton.cpp.i
+.PHONY : QMarkAutomaton.i
+
+# target to preprocess a source file
+QMarkAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.i
+.PHONY : QMarkAutomaton.cpp.i
+
+QMarkAutomaton.s: QMarkAutomaton.cpp.s
+.PHONY : QMarkAutomaton.s
+
+# target to generate assembly for a file
+QMarkAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.s
+.PHONY : QMarkAutomaton.cpp.s
+
+RightParenAutomaton.obj: RightParenAutomaton.cpp.obj
+.PHONY : RightParenAutomaton.obj
+
+# target to build an object file
+RightParenAutomaton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.obj
+.PHONY : RightParenAutomaton.cpp.obj
+
+RightParenAutomaton.i: RightParenAutomaton.cpp.i
+.PHONY : RightParenAutomaton.i
+
+# target to preprocess a source file
+RightParenAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.i
+.PHONY : RightParenAutomaton.cpp.i
+
+RightParenAutomaton.s: RightParenAutomaton.cpp.s
+.PHONY : RightParenAutomaton.s
+
+# target to generate assembly for a file
+RightParenAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.s
+.PHONY : RightParenAutomaton.cpp.s
 
 Token.obj: Token.cpp.obj
 .PHONY : Token.obj
@@ -281,6 +425,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Datalog
+	@echo ... AddAutomaton.obj
+	@echo ... AddAutomaton.i
+	@echo ... AddAutomaton.s
 	@echo ... ColonAutomaton.obj
 	@echo ... ColonAutomaton.i
 	@echo ... ColonAutomaton.s
@@ -290,9 +437,24 @@ help:
 	@echo ... CommaAutomaton.obj
 	@echo ... CommaAutomaton.i
 	@echo ... CommaAutomaton.s
+	@echo ... LeftParenAutomaton.obj
+	@echo ... LeftParenAutomaton.i
+	@echo ... LeftParenAutomaton.s
 	@echo ... Lexer.obj
 	@echo ... Lexer.i
 	@echo ... Lexer.s
+	@echo ... MultiplyAutomaton.obj
+	@echo ... MultiplyAutomaton.i
+	@echo ... MultiplyAutomaton.s
+	@echo ... PERIOD.obj
+	@echo ... PERIOD.i
+	@echo ... PERIOD.s
+	@echo ... QMarkAutomaton.obj
+	@echo ... QMarkAutomaton.i
+	@echo ... QMarkAutomaton.s
+	@echo ... RightParenAutomaton.obj
+	@echo ... RightParenAutomaton.i
+	@echo ... RightParenAutomaton.s
 	@echo ... Token.obj
 	@echo ... Token.i
 	@echo ... Token.s

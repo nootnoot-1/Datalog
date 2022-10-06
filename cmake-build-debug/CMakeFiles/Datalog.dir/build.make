@@ -143,6 +143,84 @@ CMakeFiles/Datalog.dir/CommaAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/CommaAutomaton.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\CommaAutomaton.cpp -o CMakeFiles\Datalog.dir\CommaAutomaton.cpp.s
 
+CMakeFiles/Datalog.dir/PERIOD.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/PERIOD.cpp.obj: ../PERIOD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Datalog.dir/PERIOD.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\PERIOD.cpp.obj -c C:\Users\colli\Datalog\Datalog\PERIOD.cpp
+
+CMakeFiles/Datalog.dir/PERIOD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/PERIOD.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\PERIOD.cpp > CMakeFiles\Datalog.dir\PERIOD.cpp.i
+
+CMakeFiles/Datalog.dir/PERIOD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/PERIOD.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\PERIOD.cpp -o CMakeFiles\Datalog.dir\PERIOD.cpp.s
+
+CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.obj: ../QMarkAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\QMarkAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\QMarkAutomaton.cpp
+
+CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\QMarkAutomaton.cpp > CMakeFiles\Datalog.dir\QMarkAutomaton.cpp.i
+
+CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\QMarkAutomaton.cpp -o CMakeFiles\Datalog.dir\QMarkAutomaton.cpp.s
+
+CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.obj: ../LeftParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\LeftParenAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\LeftParenAutomaton.cpp
+
+CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\LeftParenAutomaton.cpp > CMakeFiles\Datalog.dir\LeftParenAutomaton.cpp.i
+
+CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\LeftParenAutomaton.cpp -o CMakeFiles\Datalog.dir\LeftParenAutomaton.cpp.s
+
+CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.obj: ../RightParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\RightParenAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\RightParenAutomaton.cpp
+
+CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\RightParenAutomaton.cpp > CMakeFiles\Datalog.dir\RightParenAutomaton.cpp.i
+
+CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\RightParenAutomaton.cpp -o CMakeFiles\Datalog.dir\RightParenAutomaton.cpp.s
+
+CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.obj: ../MultiplyAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\MultiplyAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\MultiplyAutomaton.cpp
+
+CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\MultiplyAutomaton.cpp > CMakeFiles\Datalog.dir\MultiplyAutomaton.cpp.i
+
+CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\MultiplyAutomaton.cpp -o CMakeFiles\Datalog.dir\MultiplyAutomaton.cpp.s
+
+CMakeFiles/Datalog.dir/AddAutomaton.cpp.obj: CMakeFiles/Datalog.dir/flags.make
+CMakeFiles/Datalog.dir/AddAutomaton.cpp.obj: ../AddAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Datalog.dir/AddAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Datalog.dir\AddAutomaton.cpp.obj -c C:\Users\colli\Datalog\Datalog\AddAutomaton.cpp
+
+CMakeFiles/Datalog.dir/AddAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Datalog.dir/AddAutomaton.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\colli\Datalog\Datalog\AddAutomaton.cpp > CMakeFiles\Datalog.dir\AddAutomaton.cpp.i
+
+CMakeFiles/Datalog.dir/AddAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Datalog.dir/AddAutomaton.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\colli\Datalog\Datalog\AddAutomaton.cpp -o CMakeFiles\Datalog.dir\AddAutomaton.cpp.s
+
 # Object files for target Datalog
 Datalog_OBJECTS = \
 "CMakeFiles/Datalog.dir/main.cpp.obj" \
@@ -150,7 +228,13 @@ Datalog_OBJECTS = \
 "CMakeFiles/Datalog.dir/Token.cpp.obj" \
 "CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj" \
 "CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj" \
-"CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj"
+"CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj" \
+"CMakeFiles/Datalog.dir/PERIOD.cpp.obj" \
+"CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.obj" \
+"CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.obj" \
+"CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.obj" \
+"CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.obj" \
+"CMakeFiles/Datalog.dir/AddAutomaton.cpp.obj"
 
 # External object files for target Datalog
 Datalog_EXTERNAL_OBJECTS =
@@ -161,11 +245,17 @@ Datalog.exe: CMakeFiles/Datalog.dir/Token.cpp.obj
 Datalog.exe: CMakeFiles/Datalog.dir/ColonDashAutomaton.cpp.obj
 Datalog.exe: CMakeFiles/Datalog.dir/ColonAutomaton.cpp.obj
 Datalog.exe: CMakeFiles/Datalog.dir/CommaAutomaton.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/PERIOD.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/QMarkAutomaton.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/LeftParenAutomaton.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/RightParenAutomaton.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/MultiplyAutomaton.cpp.obj
+Datalog.exe: CMakeFiles/Datalog.dir/AddAutomaton.cpp.obj
 Datalog.exe: CMakeFiles/Datalog.dir/build.make
 Datalog.exe: CMakeFiles/Datalog.dir/linklibs.rsp
 Datalog.exe: CMakeFiles/Datalog.dir/objects1.rsp
 Datalog.exe: CMakeFiles/Datalog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Datalog.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\colli\Datalog\Datalog\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Datalog.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Datalog.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
