@@ -5,7 +5,7 @@
 #ifndef DATALOG_PERIOD_H
 #define DATALOG_PERIOD_H
 
-#include "Automaton.h"
+#include "../Automaton.h"
 
 class PeriodAutomaton : public Automaton
 {

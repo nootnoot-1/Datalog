@@ -5,7 +5,7 @@
 #ifndef DATALOG_QMARKAUTOMATON_H
 #define DATALOG_QMARKAUTOMATON_H
 
-#include "Automaton.h"
+#include "../Automaton.h"
 
 class QMarkAutomaton : public Automaton
 {

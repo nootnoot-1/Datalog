@@ -1,7 +1,7 @@
 #ifndef DATALOG_COMMAAUTOMATON_H
 #define DATALOG_COMMAAUTOMATON_H
 
-#include "Automaton.h"
+#include "../Automaton.h"
 
 class CommaAutomaton : public Automaton
 {

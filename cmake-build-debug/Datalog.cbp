@@ -80,67 +80,115 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/AddAutomaton.cpp">
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/AddAutomaton.cpp">
 			<Option target="Datalog"/>
 		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/AddAutomaton.h">
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/AddAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/BlockCommentAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/BlockCommentAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/ColonAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/ColonAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/ColonDashAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/ColonDashAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/CommaAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/CommaAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/CommentAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/CommentAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/FactsAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/FactsAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/IDAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/IDAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/LeftParenAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/LeftParenAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/MultiplyAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/MultiplyAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/PERIOD.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/PERIOD.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/QMarkAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/QMarkAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/QueriesAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/QueriesAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/RightParenAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/RightParenAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/RulesAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/RulesAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/SchemesAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/SchemesAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/StringAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/StringAutomaton.h">
 			<Option target="Datalog"/>
 		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Automaton.h">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/ColonAutomaton.cpp">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/ColonAutomaton.h">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/ColonDashAutomaton.cpp">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/ColonDashAutomaton.h">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/CommaAutomaton.cpp">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/CommaAutomaton.h">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/LeftParenAutomaton.cpp">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/LeftParenAutomaton.h">
 			<Option target="Datalog"/>
 		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Lexer.cpp">
 			<Option target="Datalog"/>
 		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Lexer.h">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/MultiplyAutomaton.cpp">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/MultiplyAutomaton.h">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/PERIOD.cpp">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/PERIOD.h">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/QMarkAutomaton.cpp">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/QMarkAutomaton.h">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/RightParenAutomaton.cpp">
-			<Option target="Datalog"/>
-		</Unit>
-		<Unit filename="C:/Users/colli/Datalog/Datalog/RightParenAutomaton.h">
 			<Option target="Datalog"/>
 		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Token.cpp">

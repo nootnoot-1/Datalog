@@ -5,7 +5,7 @@
 #ifndef DATALOG_ADDAUTOMATON_H
 #define DATALOG_ADDAUTOMATON_H
 
-#include "Automaton.h"
+#include "../Automaton.h"
 
 class AddAutomaton : public Automaton
 {

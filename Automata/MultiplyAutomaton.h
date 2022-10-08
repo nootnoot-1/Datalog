@@ -5,7 +5,7 @@
 #ifndef DATALOG_MULTIPLYAUTOMATON_H
 #define DATALOG_MULTIPLYAUTOMATON_H
 
-#include "Automaton.h"
+#include "../Automaton.h"
 
 class MultiplyAutomaton : public Automaton
 {

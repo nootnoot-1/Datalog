@@ -1,13 +1,21 @@
 #include "Lexer.h"
-#include "ColonAutomaton.h"
-#include "ColonDashAutomaton.h"
-#include "CommaAutomaton.h"
-#include "PERIOD.h"
-#include "QMarkAutomaton.h"
-#include "LeftParenAutomaton.h"
-#include "RightParenAutomaton.h"
-#include "MultiplyAutomaton.h"
-#include "AddAutomaton.h"
+#include "Automata/ColonAutomaton.h"
+#include "Automata/ColonDashAutomaton.h"
+#include "Automata/CommaAutomaton.h"
+#include "Automata/PERIOD.h"
+#include "Automata/QMarkAutomaton.h"
+#include "Automata/LeftParenAutomaton.h"
+#include "Automata/RightParenAutomaton.h"
+#include "Automata/MultiplyAutomaton.h"
+#include "Automata/AddAutomaton.h"
+#include "Automata/SchemesAutomaton.h"
+#include "Automata/FactsAutomaton.h"
+#include "Automata/RulesAutomaton.h"
+#include "Automata/QueriesAutomaton.h"
+#include "Automata/IDAutomaton.h"
+#include "Automata/StringAutomaton.h"
+#include "Automata/CommentAutomaton.h"
+#include "Automata/BlockCommentAutomaton.h"
 #include <iostream>
 
 Lexer::Lexer() {
@@ -28,10 +36,20 @@ void Lexer::CreateAutomata() {
     automata.push_back(new RightParenAutomaton());
     automata.push_back(new MultiplyAutomaton());
     automata.push_back(new AddAutomaton());
+    automata.push_back(new SchemesAutomaton());
+    automata.push_back(new FactsAutomaton());
+    automata.push_back(new RulesAutomaton());
+    automata.push_back(new QueriesAutomaton());
+    automata.push_back(new IDAutomaton());
+    automata.push_back(new StringAutomaton());
+    automata.push_back(new CommentAutomaton());
+    automata.push_back(new BlockCommentAutomaton());
     // TODO: Add the other needed automata here
 }
 
 void Lexer::Run(std::string& input) {
+    // TODO: FIX "SCHEMES\n" Undefined token bug, "SCHEMES\n": has fine output
+    // TODO: WHAT output should "SCHEMRULESES" have?
     int lineNumber = 1;
     while (!input.empty()) {
         std::cout << input << std::endl;
@@ -102,20 +120,20 @@ void Lexer::Run(std::string& input) {
 }
 void Lexer::PrintTokens() {
     for (int i=0; i<tokens.size(); ++i){
-        std::cout << tokens[i]->printTokenType() << std::endl;
+        tokens[i]->printToken();
     }
 }
 
 void Lexer::SpaceChecker(std::string& input) {
     if (input[0] == ' ') {
         //std::cout << input << std::endl;
-        input.erase(0,1);
+        input.erase(0, 1);
         //std::cout << input << std::endl;
         SpaceChecker(input);
     } else if (input[0] == '\n') {
         //std::cout << input << std::endl;
-        input.erase(0,1);
+        input.erase(0, 1);
         //std::cout << input << std::endl;
         SpaceChecker(input);
-    } else {return;}
+    } else { return; }
 }

@@ -5,7 +5,7 @@
 #ifndef DATALOG_RIGHTPARENAUTOMATON_H
 #define DATALOG_RIGHTPARENAUTOMATON_H
 
-#include "Automaton.h"
+#include "../Automaton.h"
 
 class RightParenAutomaton : public Automaton
 {
