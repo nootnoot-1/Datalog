@@ -1,4 +1,5 @@
 #include "Lexer.h"
+#include "Automaton.h"
 #include "Automata/ColonAutomaton.h"
 #include "Automata/ColonDashAutomaton.h"
 #include "Automata/CommaAutomaton.h"
@@ -53,9 +54,9 @@ void Lexer::Run(std::string& input) {
     int lineNumber = 1;
     while (!input.empty()) {
         std::cout << input << std::endl;
-        SpaceChecker(input);
         int maxRead = 0;
         auto maxAutomaton = automata.at(0);
+        SpaceChecker(input, lineNumber);
         for (int i = 0; i < automata.size(); ++i) {
             int inputRead = automata.at(i)->Start(input);
             if (inputRead > maxRead) {
@@ -64,7 +65,11 @@ void Lexer::Run(std::string& input) {
             }
         }
         if (maxRead > 0) {
-            auto newToken = maxAutomaton->CreateToken(input, lineNumber);
+            std::string desc = "";
+            for (int i=0; i<maxRead; ++i) {
+                desc.push_back(input[i]);
+            }
+            auto newToken = maxAutomaton->CreateToken(desc, lineNumber);
             lineNumber = lineNumber + maxAutomaton->NewLinesRead();
             tokens.push_back(newToken);
         } else {
@@ -75,6 +80,9 @@ void Lexer::Run(std::string& input) {
             tokens.push_back(newToken);
         }
         input.erase(0,maxRead);
+    }
+    if (tokens[tokens.size()-1]->printTokenDescription() == "\n" or "" or " ") {
+        tokens.pop_back();
     }
     auto newToken = new Token(TokenType::ENDOFFILE, "EOF", lineNumber);
     tokens.push_back(newToken);
@@ -124,16 +132,22 @@ void Lexer::PrintTokens() {
     }
 }
 
-void Lexer::SpaceChecker(std::string& input) {
+void Lexer::SpaceChecker(std::string& input, int& linenumber) {
     if (input[0] == ' ') {
         //std::cout << input << std::endl;
         input.erase(0, 1);
         //std::cout << input << std::endl;
-        SpaceChecker(input);
+        SpaceChecker(input, linenumber);
     } else if (input[0] == '\n') {
         //std::cout << input << std::endl;
         input.erase(0, 1);
         //std::cout << input << std::endl;
-        SpaceChecker(input);
+        ++linenumber;
+        SpaceChecker(input, linenumber);
     } else { return; }
 }
+/*
+void Lexer::GetNewLines(int& linenumber, Automaton maxAutomaton) {
+    linenumber = linenumber + maxAutomaton.NewLinesRead();
+}
+*/

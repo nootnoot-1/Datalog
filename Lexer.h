@@ -10,6 +10,7 @@ private:
     std::vector<Automaton*> automata;
     std::vector<Token*> tokens;
 
+
     void CreateAutomata();
 
     // TODO: add any other private methods here (if needed)
@@ -20,8 +21,9 @@ public:
 
     void Run(std::string& input);
     void PrintTokens();
-    void SpaceChecker(std::string& input);
-    
+    void SpaceChecker(std::string& input, int& linenumber);
+    //void GetNewLines(int &linenumber, Automaton maxAutomaton);
+
     // TODO: add other public methods here
 
 };

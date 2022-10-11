@@ -18,6 +18,7 @@ void StringAutomaton::S0(const std::string& input) {
 
 void StringAutomaton::S1(const std::string& input) {
     // if (input.size() == 0) {throw exception}
+    // TODO fix this
     if (input[index] == '\'') {
         inputRead++;
         index++;
@@ -37,5 +38,7 @@ void StringAutomaton::S2(const std::string& input) {
         index++;
         S1(input);
         //std::cout << "1 COLONDASH\n";
-    } else {Serr();}
+    } else {
+        Serr();
+    }
 }
