@@ -6,7 +6,7 @@
 #include <iostream>
 
 void IDAutomaton::S0(const std::string& input) {
-    if (input[index] == ':') {
+    if (isalpha(input[index])) {
         inputRead++;
         index++;
         S1(input);
@@ -17,11 +17,14 @@ void IDAutomaton::S0(const std::string& input) {
 }
 
 void IDAutomaton::S1(const std::string& input) {
-    if (input[index] == '-') {
+    if (isalpha(input[index]) or std::isdigit(input[index])) {
         inputRead++;
-        //std::cout << "1 COLONDASH\n";
+        index++;
+        S1(input);
     }
     else {
-        Serr();
+        S2(input);
     }
 }
+
+void IDAutomaton::S2(const std::string& input) {}

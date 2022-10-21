@@ -1,5 +1,4 @@
 #include "Lexer.h"
-#include "Automaton.h"
 #include "Automata/ColonAutomaton.h"
 #include "Automata/ColonDashAutomaton.h"
 #include "Automata/CommaAutomaton.h"
@@ -17,6 +16,7 @@
 #include "Automata/StringAutomaton.h"
 #include "Automata/CommentAutomaton.h"
 #include "Automata/BlockCommentAutomaton.h"
+#include "Automata/UndefinedAutomaton.h"
 #include <iostream>
 
 Lexer::Lexer() {
@@ -45,6 +45,7 @@ void Lexer::CreateAutomata() {
     automata.push_back(new StringAutomaton());
     automata.push_back(new CommentAutomaton());
     automata.push_back(new BlockCommentAutomaton());
+    automata.push_back(new UndefinedAutomaton());
     // TODO: Add the other needed automata here
 }
 
@@ -59,7 +60,11 @@ void Lexer::Run(std::string& input) {
         SpaceChecker(input, lineNumber);
         for (int i = 0; i < automata.size(); ++i) {
             int inputRead = automata.at(i)->Start(input);
-            if (inputRead > maxRead) {
+            if (automata[i]->isundef()) {
+                maxRead = inputRead;
+                maxAutomaton = automata.at(automata.size()-1);
+            }
+            if ((inputRead > maxRead)) {
                 maxRead = inputRead;
                 maxAutomaton = automata.at(i);
             }
@@ -81,10 +86,20 @@ void Lexer::Run(std::string& input) {
         }
         input.erase(0,maxRead);
     }
-    if (tokens[tokens.size()-1]->printTokenDescription() == "\n" or "" or " ") {
-        tokens.pop_back();
+    //TODO Fix this newline
+    if (tokens[tokens.size()-1]->printTokenType() == "UNDEFINED") {
+        if (tokens[tokens.size() - 1]->printTokenDescription() == "\n" ) {
+            tokens.pop_back();
+        }
+        if (tokens[tokens.size() - 1]->printTokenDescription() == "" ) {
+            tokens.pop_back();
+        }
+        if (tokens[tokens.size() - 1]->printTokenDescription() == " " ) {
+            tokens.pop_back();
+        }
+        //tokens.pop_back();
     }
-    auto newToken = new Token(TokenType::ENDOFFILE, "EOF", lineNumber);
+    auto newToken = new Token(TokenType::ENDOFFILE, "", lineNumber);
     tokens.push_back(newToken);
     PrintTokens();
     // TODO: convert this pseudo-code with the algorithm into actual C++ code
@@ -134,14 +149,10 @@ void Lexer::PrintTokens() {
 
 void Lexer::SpaceChecker(std::string& input, int& linenumber) {
     if (input[0] == ' ') {
-        //std::cout << input << std::endl;
         input.erase(0, 1);
-        //std::cout << input << std::endl;
         SpaceChecker(input, linenumber);
     } else if (input[0] == '\n') {
-        //std::cout << input << std::endl;
         input.erase(0, 1);
-        //std::cout << input << std::endl;
         ++linenumber;
         SpaceChecker(input, linenumber);
     } else { return; }

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/colli/Datalog/Datalog/Automata/StringAutomaton.cpp
-StringAutomaton.h
-C:/Users/colli/Datalog/Datalog/Automata/StringAutomaton.h
+C:/Users/colli/Datalog/Datalog/Automata/BlockCommentAutomaton.cpp
+BlockCommentAutomaton.h
+C:/Users/colli/Datalog/Datalog/Automata/BlockCommentAutomaton.h
 iostream
 -
 
-C:/Users/colli/Datalog/Datalog/Automata/StringAutomaton.h
+C:/Users/colli/Datalog/Datalog/Automata/BlockCommentAutomaton.h
 ../Automaton.h
 C:/Users/colli/Datalog/Datalog/Automaton.h
 

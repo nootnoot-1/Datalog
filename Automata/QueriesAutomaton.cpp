@@ -17,7 +17,7 @@ void QueriesAutomaton::S0(const std::string& input) {
 }
 
 void QueriesAutomaton::S1(const std::string& input) {
-    if (input[index] == 'U') {
+    if (input[index] == 'u') {
         inputRead++;
         //std::cout << "1 COLONDASH\n";
         index++;
@@ -29,7 +29,7 @@ void QueriesAutomaton::S1(const std::string& input) {
 }
 
 void QueriesAutomaton::S2(const std::string& input) {
-    if (input[index] == 'E') {
+    if (input[index] == 'e') {
         inputRead++;
         index++;
         S3(input);
@@ -40,7 +40,7 @@ void QueriesAutomaton::S2(const std::string& input) {
 }
 
 void QueriesAutomaton::S3(const std::string& input) {
-    if (input[index] == 'R') {
+    if (input[index] == 'r') {
         inputRead++;
         index++;
         S4(input);
@@ -51,7 +51,7 @@ void QueriesAutomaton::S3(const std::string& input) {
 }
 
 void QueriesAutomaton::S4(const std::string& input) {
-    if (input[index] == 'I') {
+    if (input[index] == 'i') {
         inputRead++;
         index++;
         S5(input);
@@ -62,7 +62,7 @@ void QueriesAutomaton::S4(const std::string& input) {
 }
 
 void QueriesAutomaton::S5(const std::string& input) {
-    if (input[index] == 'E') {
+    if (input[index] == 'e') {
         inputRead++;
         index++;
         S6(input);
@@ -73,7 +73,7 @@ void QueriesAutomaton::S5(const std::string& input) {
 }
 
 void QueriesAutomaton::S6(const std::string& input) {
-    if (input[index] == 'S') {
+    if (input[index] == 's') {
         inputRead++;
     }
     else {

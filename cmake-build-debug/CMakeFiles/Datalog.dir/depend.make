@@ -86,6 +86,11 @@ CMakeFiles/Datalog.dir/Automata/StringAutomaton.cpp.obj: \
  ../Automata/StringAutomaton.h \
  ../Automaton.h \
  ../Token.h
+CMakeFiles/Datalog.dir/Automata/UndefinedAutomaton.cpp.obj: \
+ ../Automata/UndefinedAutomaton.cpp \
+ ../Automata/UndefinedAutomaton.h \
+ ../Automaton.h \
+ ../Token.h
 CMakeFiles/Datalog.dir/Lexer.cpp.obj: \
  ../Automata/AddAutomaton.h \
  ../Automata/BlockCommentAutomaton.h \
@@ -104,6 +109,7 @@ CMakeFiles/Datalog.dir/Lexer.cpp.obj: \
  ../Automata/RulesAutomaton.h \
  ../Automata/SchemesAutomaton.h \
  ../Automata/StringAutomaton.h \
+ ../Automata/UndefinedAutomaton.h \
  ../Automaton.h \
  ../Lexer.cpp \
  ../Lexer.h \

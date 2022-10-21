@@ -17,7 +17,7 @@ void FactsAutomaton::S0(const std::string& input) {
 }
 
 void FactsAutomaton::S1(const std::string& input) {
-    if (input[index] == 'A') {
+    if (input[index] == 'a') {
         inputRead++;
         index++;
         //std::cout << "1 COLONDASH\n";
@@ -29,7 +29,7 @@ void FactsAutomaton::S1(const std::string& input) {
 }
 
 void FactsAutomaton::S2(const std::string& input) {
-    if (input[index] == 'C') {
+    if (input[index] == 'c') {
         inputRead++;
         index++;
         //std::cout << "1 COLONDASH\n";
@@ -41,7 +41,7 @@ void FactsAutomaton::S2(const std::string& input) {
 }
 
 void FactsAutomaton::S3(const std::string& input) {
-    if (input[index] == 'T') {
+    if (input[index] == 't') {
         inputRead++;
         index++;
         //std::cout << "1 COLONDASH\n";
@@ -53,7 +53,7 @@ void FactsAutomaton::S3(const std::string& input) {
 }
 
 void FactsAutomaton::S4(const std::string& input) {
-    if (input[index] == 'S') {
+    if (input[index] == 's') {
         inputRead++;
         //std::cout << "1 COLONDASH\n";
     }

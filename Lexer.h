@@ -22,7 +22,6 @@ public:
     void Run(std::string& input);
     void PrintTokens();
     void SpaceChecker(std::string& input, int& linenumber);
-    //void GetNewLines(int &linenumber, Automaton maxAutomaton);
 
     // TODO: add other public methods here
 

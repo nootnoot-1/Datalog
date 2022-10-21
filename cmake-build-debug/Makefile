@@ -536,6 +536,30 @@ Automata/StringAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/Automata/StringAutomaton.cpp.s
 .PHONY : Automata/StringAutomaton.cpp.s
 
+Automata/UndefinedAutomaton.obj: Automata/UndefinedAutomaton.cpp.obj
+.PHONY : Automata/UndefinedAutomaton.obj
+
+# target to build an object file
+Automata/UndefinedAutomaton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/Automata/UndefinedAutomaton.cpp.obj
+.PHONY : Automata/UndefinedAutomaton.cpp.obj
+
+Automata/UndefinedAutomaton.i: Automata/UndefinedAutomaton.cpp.i
+.PHONY : Automata/UndefinedAutomaton.i
+
+# target to preprocess a source file
+Automata/UndefinedAutomaton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/Automata/UndefinedAutomaton.cpp.i
+.PHONY : Automata/UndefinedAutomaton.cpp.i
+
+Automata/UndefinedAutomaton.s: Automata/UndefinedAutomaton.cpp.s
+.PHONY : Automata/UndefinedAutomaton.s
+
+# target to generate assembly for a file
+Automata/UndefinedAutomaton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Datalog.dir\build.make CMakeFiles/Datalog.dir/Automata/UndefinedAutomaton.cpp.s
+.PHONY : Automata/UndefinedAutomaton.cpp.s
+
 Lexer.obj: Lexer.cpp.obj
 .PHONY : Lexer.obj
 
@@ -668,6 +692,9 @@ help:
 	@echo ... Automata/StringAutomaton.obj
 	@echo ... Automata/StringAutomaton.i
 	@echo ... Automata/StringAutomaton.s
+	@echo ... Automata/UndefinedAutomaton.obj
+	@echo ... Automata/UndefinedAutomaton.i
+	@echo ... Automata/UndefinedAutomaton.s
 	@echo ... Lexer.obj
 	@echo ... Lexer.i
 	@echo ... Lexer.s

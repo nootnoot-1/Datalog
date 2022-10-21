@@ -86,6 +86,11 @@ CMakeFiles/Datalog.dir/Automata/StringAutomaton.cpp.obj
  C:/Users/colli/Datalog/Datalog/Automata/StringAutomaton.h
  C:/Users/colli/Datalog/Datalog/Automaton.h
  C:/Users/colli/Datalog/Datalog/Token.h
+CMakeFiles/Datalog.dir/Automata/UndefinedAutomaton.cpp.obj
+ C:/Users/colli/Datalog/Datalog/Automata/UndefinedAutomaton.cpp
+ C:/Users/colli/Datalog/Datalog/Automata/UndefinedAutomaton.h
+ C:/Users/colli/Datalog/Datalog/Automaton.h
+ C:/Users/colli/Datalog/Datalog/Token.h
 CMakeFiles/Datalog.dir/Lexer.cpp.obj
  C:/Users/colli/Datalog/Datalog/Automata/AddAutomaton.h
  C:/Users/colli/Datalog/Datalog/Automata/BlockCommentAutomaton.h
@@ -104,6 +109,7 @@ CMakeFiles/Datalog.dir/Lexer.cpp.obj
  C:/Users/colli/Datalog/Datalog/Automata/RulesAutomaton.h
  C:/Users/colli/Datalog/Datalog/Automata/SchemesAutomaton.h
  C:/Users/colli/Datalog/Datalog/Automata/StringAutomaton.h
+ C:/Users/colli/Datalog/Datalog/Automata/UndefinedAutomaton.h
  C:/Users/colli/Datalog/Datalog/Automaton.h
  C:/Users/colli/Datalog/Datalog/Lexer.cpp
  C:/Users/colli/Datalog/Datalog/Lexer.h

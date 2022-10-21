@@ -8,6 +8,7 @@ protected:
     int inputRead = 0;
     int newLines = 0;
     int index = 0;
+    bool undef = false;
     TokenType type;
 
 public:
@@ -24,6 +25,7 @@ public:
         newLines = 0;
         inputRead = 0;
         index = 0;
+        undef = false;
         S0(input);
         return inputRead;
     }
@@ -35,6 +37,8 @@ public:
         // Indicate the input was rejected
         inputRead = 0;
     }
+
+    bool isundef() {return undef;}
 
     virtual Token* CreateToken(std::string input, int lineNumber) { return new Token(type, input, lineNumber); }
 

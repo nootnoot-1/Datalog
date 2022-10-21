@@ -182,6 +182,12 @@
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/StringAutomaton.h">
 			<Option target="Datalog"/>
 		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/UndefinedAutomaton.cpp">
+			<Option target="Datalog"/>
+		</Unit>
+		<Unit filename="C:/Users/colli/Datalog/Datalog/Automata/UndefinedAutomaton.h">
+			<Option target="Datalog"/>
+		</Unit>
 		<Unit filename="C:/Users/colli/Datalog/Datalog/Automaton.h">
 			<Option target="Datalog"/>
 		</Unit>

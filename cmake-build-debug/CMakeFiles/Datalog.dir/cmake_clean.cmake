@@ -16,6 +16,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Datalog.dir/Automata/RulesAutomaton.cpp.obj"
   "CMakeFiles/Datalog.dir/Automata/SchemesAutomaton.cpp.obj"
   "CMakeFiles/Datalog.dir/Automata/StringAutomaton.cpp.obj"
+  "CMakeFiles/Datalog.dir/Automata/UndefinedAutomaton.cpp.obj"
   "CMakeFiles/Datalog.dir/Lexer.cpp.obj"
   "CMakeFiles/Datalog.dir/Token.cpp.obj"
   "CMakeFiles/Datalog.dir/main.cpp.obj"

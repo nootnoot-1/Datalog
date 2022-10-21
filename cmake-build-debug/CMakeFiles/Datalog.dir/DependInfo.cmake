@@ -25,6 +25,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/colli/Datalog/Datalog/Automata/RulesAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Automata/RulesAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/Automata/SchemesAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Automata/SchemesAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/Automata/StringAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Automata/StringAutomaton.cpp.obj"
+  "C:/Users/colli/Datalog/Datalog/Automata/UndefinedAutomaton.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Automata/UndefinedAutomaton.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/Lexer.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Lexer.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/Token.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/Token.cpp.obj"
   "C:/Users/colli/Datalog/Datalog/main.cpp" "C:/Users/colli/Datalog/Datalog/cmake-build-debug/CMakeFiles/Datalog.dir/main.cpp.obj"

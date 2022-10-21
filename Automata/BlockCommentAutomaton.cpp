@@ -6,7 +6,7 @@
 #include <iostream>
 
 void BlockCommentAutomaton::S0(const std::string& input) {
-    if (input[index] == ':') {
+    if (input[index] == '#') {
         inputRead++;
         index++;
         S1(input);
@@ -17,11 +17,38 @@ void BlockCommentAutomaton::S0(const std::string& input) {
 }
 
 void BlockCommentAutomaton::S1(const std::string& input) {
-    if (input[index] == '-') {
+    if (input[index] == '|') {
         inputRead++;
-        //std::cout << "1 COLONDASH\n";
+        index++;
+        S2(input);
     }
     else {
         Serr();
+    }
+}
+
+void BlockCommentAutomaton::S2(const std::string& input) {
+    if (index > input.size()-1) {undef = true; return;}
+    if (input[index] != '|') {
+        inputRead++;
+        index++;
+        S2(input);
+        if (input[index] == '\n') {
+            ++newLines;
+        }
+    }
+    else {
+        inputRead++;
+        index++;
+        S3(input);
+    }
+}
+
+void BlockCommentAutomaton::S3(const std::string& input) {
+    if (input[index] == '#') {
+        inputRead++;
+    }
+    else {
+        S2(input);
     }
 }
